@@ -24,14 +24,6 @@ The dashboard presents four main sales metrics:
 - Average Order Value (AOV)
 - Total Units Sold
 
-## 🔎 Key Insights
-
-- Total revenue reached 456,000 from 1,000 transactions.
-- Electronics recorded the highest revenue among the three product categories.
-- Low Value transactions represented the largest share of transactions at 60.4%.
-- Medium Value and High Value transactions accounted for 19.4% and 20.2%, respectively.
-- Monthly revenue fluctuated throughout the year, indicating changes in sales performance over time.
-
 ## 📈 Dashboard Features
 
 ### Monthly Revenue Trend
@@ -70,11 +62,25 @@ Provides transaction-level information including:
 - Quantity
 - Total Amount
 
+## 🔎 Key Insights
+
+- Total revenue reached 456,000 from 1,000 transactions.
+- Electronics recorded the highest revenue among the three product categories.
+- Low Value transactions represented the largest share of transactions at 60.4%.
+- Medium Value and High Value transactions accounted for 19.4% and 20.2%, respectively.
+- Monthly revenue fluctuated throughout the year, providing an overview of changes in sales performance over time.
+
 ## 🛠️ Tools
 
 - Google Looker Studio
 - Microsoft Excel
 - Google Sheets
+
+## 📁 Dataset
+
+The dashboard was built using a retail transaction dataset containing customer, product, quantity, and transaction value information.
+
+The dataset is provided in CSV format for reference and reproducibility.
 
 ## 📷 Dashboard Preview
 
@@ -87,3 +93,5 @@ Provides transaction-level information including:
 ## 💡 Project Focus
 
 This project focuses on presenting retail transaction data through an interactive dashboard to make sales performance, customer segmentation, and product performance easier to explore and monitor.
+
+
