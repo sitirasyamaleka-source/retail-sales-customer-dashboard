@@ -84,7 +84,7 @@ The dataset is provided in CSV format for reference and reproducibility.
 
 ## 📷 Dashboard Preview
 
-![Retail Sales & Customer Performance Dashboard](dashboard-preview.png)
+![Retail Sales & Customer Performance Dashboard](dashboard-preview.jpeg)
 
 ## 🔗 Live Dashboard
 
