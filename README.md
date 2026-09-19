@@ -82,6 +82,8 @@ The dashboard was built using a retail transaction dataset containing customer, 
 
 The dataset is provided in CSV format for reference and reproducibility.
 
+📄 [View Dataset (CSV)](retail_sales_dataset.csv)
+
 ## 📷 Dashboard Preview
 
 ![Retail Sales & Customer Performance Dashboard](dashboard-preview.jpeg)
