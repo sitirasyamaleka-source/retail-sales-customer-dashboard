@@ -24,6 +24,14 @@ The dashboard presents four main sales metrics:
 - Average Order Value (AOV)
 - Total Units Sold
 
+## 🔎 Key Insights
+
+- Total revenue reached 456,000 from 1,000 transactions.
+- Electronics recorded the highest revenue among the three product categories.
+- Low Value transactions represented the largest share of transactions at 60.4%.
+- Medium Value and High Value transactions accounted for 19.4% and 20.2%, respectively.
+- Monthly revenue fluctuated throughout the year, indicating changes in sales performance over time.
+
 ## 📈 Dashboard Features
 
 ### Monthly Revenue Trend
