@@ -1,24 +1,25 @@
 # Retail Sales & Customer Performance Dashboard
 
-Interactive dashboard untuk menganalisis data transaksi retail dan melihat performa penjualan serta karakteristik customer.
+Interactive dashboard untuk melihat performa penjualan dan karakteristik customer berdasarkan data transaksi retail.
 
 ## Project Overview
 
-Project ini menggunakan dataset transaksi retail yang diperoleh dari dataset publik.
+Project ini dibuat menggunakan dataset transaksi retail yang saya download dari Kaggle.
 
-Dataset digunakan secara langsung sebagai data source di Data Studio untuk membuat dashboard interaktif yang menampilkan beberapa metrik dan visualisasi terkait penjualan dan customer.
+Dataset tersebut kemudian digunakan langsung sebagai data source di Data Studio untuk membuat dashboard interaktif yang dapat digunakan untuk melihat beberapa metrik penjualan, product category, dan customer segmentation.
 
 ## Dashboard Objectives
 
 Dashboard ini dibuat untuk:
 
-- Melihat total revenue dan jumlah transaksi
+- Melihat total revenue
+- Melihat jumlah transaksi
 - Melihat Average Order Value (AOV)
 - Melihat total unit yang terjual
 - Melihat perkembangan revenue setiap bulan
 - Membandingkan revenue berdasarkan product category
-- Melihat distribusi customer berdasarkan gender dan age group
-- Melihat proporsi transaksi berdasarkan basket value
+- Melihat customer berdasarkan gender dan age group
+- Melihat distribusi transaksi berdasarkan basket value
 
 ## Key Metrics
 
@@ -32,6 +33,7 @@ Dashboard ini dibuat untuk:
 ## Dashboard Features
 
 ### Sales Performance
+
 - Total Revenue
 - Total Transactions
 - Average Order Value (AOV)
@@ -39,15 +41,18 @@ Dashboard ini dibuat untuk:
 - Monthly Revenue Trend
 
 ### Product Analysis
+
 - Revenue by Product Category
-- Comparison between Electronics, Clothing, and Beauty
+- Comparison of revenue across Electronics, Clothing, and Beauty
 
 ### Customer Analysis
+
 - Customer distribution by Gender
 - Customer distribution by Age Group
 
 ### Transaction Analysis
-- Transaction share based on Basket Value
+
+- Transaction share by Basket Value
 - Transaction detail table
 
 ## Key Insights
@@ -55,9 +60,9 @@ Dashboard ini dibuat untuk:
 Beberapa insight yang terlihat dari dashboard:
 
 - Electronics memiliki revenue tertinggi dibandingkan product category lainnya.
-- Transaksi dengan kategori Low Value memiliki proporsi terbesar, yaitu sekitar 60.4%.
-- Medium Value transactions memiliki proporsi sekitar 19.4%.
-- High Value transactions memiliki proporsi sekitar 20.2%.
+- Low Value transactions memiliki proporsi terbesar, yaitu 60.4% dari total transaksi.
+- Medium Value transactions memiliki proporsi sebesar 19.4%.
+- High Value transactions memiliki proporsi sebesar 20.2%.
 
 ## Tools
 
@@ -65,9 +70,9 @@ Beberapa insight yang terlihat dari dashboard:
 
 ## Dataset
 
-Dataset yang digunakan dalam project ini merupakan dataset transaksi retail yang diperoleh dari sumber dataset publik.
+Dataset yang digunakan dalam project ini diperoleh dari Kaggle.
 
-Dataset digunakan secara langsung sebagai data source untuk dashboard.
+Dataset kemudian digunakan secara langsung sebagai data source di Data Studio untuk membuat dashboard.
 
 [View Dataset (CSV)](retail_sales_dataset.csv)
 
@@ -81,7 +86,7 @@ Dataset digunakan secara langsung sebagai data source untuk dashboard.
 
 ## Project Workflow
 
-1. Download retail sales dataset
+1. Download retail sales dataset from Kaggle
 2. Use the dataset as a data source in Data Studio
 3. Create metrics and visualizations
 4. Build the interactive dashboard
@@ -89,4 +94,4 @@ Dataset digunakan secara langsung sebagai data source untuk dashboard.
 
 ## Project Focus
 
-This project focuses on presenting retail transaction data in an interactive dashboard to make sales performance and customer information easier to understand and explore.
+Project ini berfokus pada penyajian data transaksi retail dalam bentuk dashboard interaktif agar informasi mengenai performa penjualan dan customer dapat dilihat dengan lebih mudah.
