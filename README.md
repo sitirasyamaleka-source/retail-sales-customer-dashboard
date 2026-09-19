@@ -74,7 +74,6 @@ Provides transaction-level information including:
 
 - Google Looker Studio
 - Microsoft Excel
-- Google Sheets
 
 ## 📁 Dataset
 
