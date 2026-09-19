@@ -74,7 +74,7 @@ Provides transaction-level information including:
 
 ## 🔗 Live Dashboard
 
-[View Interactive Dashboard](PASTE_YOUR_LOOKER_STUDIO_LINK_HERE)
+[View Interactive Dashboard]([PASTE_YOUR_LOOKER_STUDIO_LINK_HERE](https://datastudio.google.com/reporting/50bcb2f1-9468-4227-9815-3df8a3450d9f)
 
 ## 💡 Project Focus
 
