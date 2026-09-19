@@ -1,98 +1,92 @@
 # Retail Sales & Customer Performance Dashboard
 
-## 📊 Project Overview
+Interactive dashboard untuk menganalisis data transaksi retail dan melihat performa penjualan serta karakteristik customer.
 
-An interactive dashboard designed to provide an overview of retail sales performance and customer behavior.
+## Project Overview
 
-The dashboard allows users to explore sales data based on product category, gender, age group, and date range.
+Project ini menggunakan dataset transaksi retail yang diperoleh dari dataset publik.
 
-## 🎯 Dashboard Objectives
+Dataset digunakan secara langsung sebagai data source di Data Studio untuk membuat dashboard interaktif yang menampilkan beberapa metrik dan visualisasi terkait penjualan dan customer.
 
-- Monitor overall sales performance
-- Analyze revenue and transaction trends
-- Compare revenue across product categories
-- Explore customer segments by gender and age group
-- Analyze transaction distribution based on basket value
-- View detailed transaction-level data
+## Dashboard Objectives
 
-## 📌 Key Metrics
+Dashboard ini dibuat untuk:
 
-The dashboard presents four main sales metrics:
+- Melihat total revenue dan jumlah transaksi
+- Melihat Average Order Value (AOV)
+- Melihat total unit yang terjual
+- Melihat perkembangan revenue setiap bulan
+- Membandingkan revenue berdasarkan product category
+- Melihat distribusi customer berdasarkan gender dan age group
+- Melihat proporsi transaksi berdasarkan basket value
 
+## Key Metrics
+
+| Metric | Value |
+|---|---:|
+| Total Revenue | 456,000 |
+| Total Transactions | 1,000 |
+| Average Order Value | 456 |
+| Total Units Sold | 2,514 |
+
+## Dashboard Features
+
+### Sales Performance
 - Total Revenue
 - Total Transactions
 - Average Order Value (AOV)
 - Total Units Sold
+- Monthly Revenue Trend
 
-## 📈 Dashboard Features
+### Product Analysis
+- Revenue by Product Category
+- Comparison between Electronics, Clothing, and Beauty
 
-### Monthly Revenue Trend
+### Customer Analysis
+- Customer distribution by Gender
+- Customer distribution by Age Group
 
-Visualizes revenue movement over time to provide an overview of monthly sales performance.
+### Transaction Analysis
+- Transaction share based on Basket Value
+- Transaction detail table
 
-### Revenue by Product Category
+## Key Insights
 
-Compares total revenue across different product categories such as Electronics, Clothing, and Beauty.
+Beberapa insight yang terlihat dari dashboard:
 
-### Customer Segmentation
+- Electronics memiliki revenue tertinggi dibandingkan product category lainnya.
+- Transaksi dengan kategori Low Value memiliki proporsi terbesar, yaitu sekitar 60.4%.
+- Medium Value transactions memiliki proporsi sekitar 19.4%.
+- High Value transactions memiliki proporsi sekitar 20.2%.
 
-Provides filtering and analysis based on:
+## Tools
 
-- Gender
-- Age Group
+- Data Studio
 
-### Transaction Share by Basket Value Tier
+## Dataset
 
-Shows the distribution of transactions based on basket value:
+Dataset yang digunakan dalam project ini merupakan dataset transaksi retail yang diperoleh dari sumber dataset publik.
 
-- Low Value
-- Medium Value
-- High Value
+Dataset digunakan secara langsung sebagai data source untuk dashboard.
 
-### Transaction Details
+[View Dataset (CSV)](retail_sales_dataset.csv)
 
-Provides transaction-level information including:
-
-- Transaction ID
-- Transaction Date
-- Customer ID
-- Gender
-- Age Group
-- Product Category
-- Quantity
-- Total Amount
-
-## 🔎 Key Insights
-
-- Total revenue reached 456,000 from 1,000 transactions.
-- Electronics recorded the highest revenue among the three product categories.
-- Low Value transactions represented the largest share of transactions at 60.4%.
-- Medium Value and High Value transactions accounted for 19.4% and 20.2%, respectively.
-- Monthly revenue fluctuated throughout the year, providing an overview of changes in sales performance over time.
-
-## 🛠️ Tools
-
-- Google Looker Studio
-- Microsoft Excel
-
-## 📁 Dataset
-
-The dashboard was built using a retail transaction dataset containing customer, product, quantity, and transaction value information.
-
-The dataset is provided in CSV format for reference and reproducibility.
-
-📄 [View Dataset (CSV)](retail_sales_dataset.csv)
-
-## 📷 Dashboard Preview
+## Dashboard Preview
 
 ![Retail Sales & Customer Performance Dashboard](dashboard-preview.jpeg)
 
-## 🔗 Live Dashboard
+## Live Dashboard
 
 [View Interactive Dashboard](https://datastudio.google.com/reporting/50bcb2f1-9468-4227-9815-3df8a3450d9f)
 
-## 💡 Project Focus
+## Project Workflow
 
-This project focuses on presenting retail transaction data through an interactive dashboard to make sales performance, customer segmentation, and product performance easier to explore and monitor.
+1. Download retail sales dataset
+2. Use the dataset as a data source in Data Studio
+3. Create metrics and visualizations
+4. Build the interactive dashboard
+5. Review sales and customer performance insights
 
+## Project Focus
 
+This project focuses on presenting retail transaction data in an interactive dashboard to make sales performance and customer information easier to understand and explore.
